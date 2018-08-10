@@ -16,11 +16,15 @@ Our goal with Botkit is to make bot building easy, fun, and accessible to anyone
 * Sample skill modules that demonstrate various features of Botkit
 
 
-### Setup Botkit
+## Setup Botkit for Google Hangouts
+
+[Documentation for Botkit's Google Hangouts Adapter](https://botkit.ai/docs/platform-google-hangouts.html);
+
+### Deploy to Glitch
 
 [Remix this project on Glitch](https://glitch.com/~botkit-starter-googlehangouts)
 
-[Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/howdyai/botkit-starter-googlehangouts/master)
+### Deploy Locally
 
 Clone this repository:
 
@@ -33,6 +37,8 @@ cd botkit-starter-googlehangouts
 npm install
 ```
 
+### Add Google Credentials
+
 Get a google credentials file `GOOGLE_APPLICATION_CREDENTIALS` [as described here](https://developers.google.com/hangouts/chat/how-tos/bots-publish)
 
 Update the `.env` file with your newly acquired tokens.
@@ -44,6 +50,8 @@ Launch your bot application by typing:
 You can also specify a verification token `GOOGLE_VERIFICATION_TOKEN` and `PORT` and lunch your bot application by typing :
 
 `PORT=YOUR_APP_PORT GOOGLE_APPLICATION_CREDENTIALS=YOUR_GOOGLE_CREDENTIALS_FILE GOOGLE_VERIFICATION_TOKEN=YOUR_GOOGLE_VERIFICATION_TOKEN node bot.js`
+
+### Configure Webhook URL
 
 By default, your bot will receive messages from Google at `https://<my_url>/hangouts/receive`. You will need to configure your Google Hangouts Bot profile with this URL.
 
