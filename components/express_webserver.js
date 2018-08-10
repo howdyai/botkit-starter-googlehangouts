@@ -11,12 +11,6 @@ module.exports = (controller, bot) => {
     // import express middlewares that are present in /components/express_middleware
     let normalizedPath = require("path").join(__dirname, "express_middleware");
 
-    require("fs")
-        .readdirSync(normalizedPath)
-        .forEach( (file) => {
-        require("./express_middleware/" + file)(webserver, controller);
-    });
-
     webserver.use(express.static('public'));
 
     webserver.listen(process.env.PORT || 3000);
