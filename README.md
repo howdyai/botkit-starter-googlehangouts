@@ -45,6 +45,8 @@ You can also specify a verification token `GOOGLE_VERIFICATION_TOKEN` and `PORT`
 
 `PORT=YOUR_APP_PORT GOOGLE_APPLICATION_CREDENTIALS=YOUR_GOOGLE_CREDENTIALS_FILE GOOGLE_VERIFICATION_TOKEN=YOUR_GOOGLE_VERIFICATION_TOKEN node bot.js`
 
+By default, your bot will receive messages from Google at `https://<my_url>/hangouts/receive`. You will need to configure your Google Hangouts Bot profile with this URL.
+
 Google Hangouts Chat API requires your application be available at an SSL-enabled endpoint. To expose an endpoint during development, we recommend using [localtunnel.me](http://localtunnel.me) or [ngrok](http://ngrok.io), either of which can be used to temporarily expose your bot to Google Hangouts Chat API. Both Glitch and Heroku deployments will provide this to you automatically.
 
 Once stable and published to the real internet, use nginx or another web server to provide an SSL-powered front end to your bot application.
@@ -86,12 +88,12 @@ You can find full documentation for Botkit on our [Docs site](https://botkit.ai/
 
 * Glitch allows users to ask the community for help directly from the editor! For more information on raising your hand, [read this blog post.](https://medium.com/glitch/just-raise-your-hand-how-glitch-helps-aa6564cb1685)
 
-* Join our thriving community of Botkit developers and bot enthusiasts at large. Over 4500 members strong, [our open Google Hangouts group](http://community.botkit.ai) is _the place_ for people interested in the art and science of making bots. 
+* Join our thriving community of Botkit developers and bot enthusiasts at large. Over 4500 members strong, [our open Google Hangouts group](http://community.botkit.ai) is _the place_ for people interested in the art and science of making bots.
 
  Come to ask questions, share your progress, and commune with your peers!
 
-* We also host a [regular meetup and annual conference called TALKABOT.](http://talkabot.ai) Come meet and learn from other bot developers! 
- 
+* We also host a [regular meetup and annual conference called TALKABOT.](http://talkabot.ai) Come meet and learn from other bot developers!
+
  [Full video of our 2016 event is available on Youtube.](https://www.youtube.com/playlist?list=PLD3JNfKLDs7WsEHSal2cfwG0Fex7A6aok)
 
 

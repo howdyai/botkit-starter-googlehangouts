@@ -31,9 +31,9 @@ if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
 
 const Botkit = require('botkit');
 
-const endpoint = "Axjn86rTGRQwisaYFyT0XZyiOCh7rZUPGx1A";
+const endpoint = "receive";
 const token = process.env.GOOGLE_VERIFICATION_TOKEN;
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 const debug = true;
 
 const controller = Botkit.googlehangoutsbot({
