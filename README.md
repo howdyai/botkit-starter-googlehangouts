@@ -22,7 +22,7 @@ Our goal with Botkit is to make bot building easy, fun, and accessible to anyone
 
 ### Deploy to Glitch
 
-[Remix this project on Glitch](https://glitch.com/~botkit-starter-googlehangouts)
+[Remix this project on Glitch](https://glitch.com/~botkit-googlehangouts)
 
 ### Deploy Locally
 
