@@ -18,7 +18,7 @@ Our goal with Botkit is to make bot building easy, fun, and accessible to anyone
 
 ## Setup Botkit for Google Hangouts
 
-[Documentation for Botkit's Google Hangouts Adapter](https://botkit.ai/docs/platform-google-hangouts.html);
+[Documentation for Botkit's Google Hangouts Adapter](https://botkit.ai/docs/readme-google-hangouts.html);
 
 ### Deploy to Glitch
 
